@@ -48,3 +48,32 @@ The `get_pastresults.py` script scrapes historical match data from Wikipedia for
 
 ```bash
 python get_pastresults.py
+
+This script will fetch data and save it in a structured format (e.g., CSV or DataFrame).
+
+### 2. Getting Current Tables
+
+The `get_tables.ipynb` notebook extracts the current tournament tables from the Wikipedia page of UEFA Euro 2024.
+
+#### Running the Notebook
+Open the notebook:
+```bash
+jupyter notebook get_tables.ipynb
+
+Run all cells to fetch and process the current tables.
+
+### 3. Predicting Match Outcomes
+
+The `predict_euros.ipynb` notebook uses historical data and statistical models to predict the outcomes of future matches.
+
+#### Running the Notebook
+Open the notebook:
+````bash
+jupyter notebook predict_euros.ipynb
+
+Run all cells to load data, train the prediction model, and output the predictions.
+
+## Data Sources
+
+- Historical match data: Wikipedia pages of past UEFA European Championships.
+- Current tournament tables: Wikipedia page of UEFA Euro 2024.
