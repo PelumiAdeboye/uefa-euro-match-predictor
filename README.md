@@ -1,4 +1,4 @@
-![Image]
+![Image](image.png)
 
 # UEFA Euro Match Predictor
 
